@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full height */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #f5f9f7;
+    color: #333;
+}
+
+h2 {
+    color: #2c7a7b;
+    text-align: center; /* Center the heading */
+}
+
+a {
+    color: #2c7a7b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    width: 300px; /* Set a fixed width for the form */
+    background: white; /* Background for the form */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+input[type="text"], input[type="password"], textarea {
+    padding: 8px;
+    width: 100%; /* Full width */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px; /* Space between inputs */
+}
+
+button {
+    background-color: #2c7a7b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Full width for button */
+}
+
+button:hover {
+    background-color: #285e61;
+}
+
+.message {
+    text-align: center; /* Center the message */
+    font-weight: bold;
+    margin-top: 20px;
+}
